@@ -3,7 +3,7 @@
 #入力していない場合エラー
 if [ ! $2 ] || [ ! $1 ]  ;
 then
-	echo "入力エラー"
+	echo "ERROR"
 	exit 1
 fi
 a=$1
