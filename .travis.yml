@@ -1,0 +1,4 @@
+language: bash
+script:
+        - echo "gcm test"
+        - ./gcm_test.sh
